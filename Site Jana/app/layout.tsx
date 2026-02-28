@@ -1,6 +1,11 @@
-import type {Metadata} from 'next';
-import { Cinzel, Poppins } from 'next/font/google';
-import './globals.css'; // Global styles
+export const metadata: Metadata = {
+  title: 'Janaína Melo - Molde F1 Expert',
+  description: 'Curso especializado em alongamento de unhas com Molde F1 por Janaína Melo.',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+  },
+};
 
 const cinzel = Cinzel({
   subsets: ['latin'],
